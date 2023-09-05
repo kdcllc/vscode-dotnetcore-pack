@@ -1,0 +1,88 @@
+{
+    "name": "vscode-dotnetcore-pack",
+    "displayName": ".NET Core Dev Pack",
+    "description": "Streamline your .NET Core Development with our Extension Pack.",
+    "version": "1.0.0",
+    "license": "SEE LICENSE IN LICENSE",
+    "galleryBanner": {
+        "color": "#0072c6",
+        "theme": "dark"
+    },
+    "icon": "kdcllc-icon.png",
+    "repository": {
+        "url": "https://github.com/kdcllc/vscode-dotnetcore-pack"
+    },
+    "homepage": "https://github.com/kdcllc/vscode-dotnetcore-pack",
+    "bugs": {
+        "url": "https://github.com/kdcllc/vscode-dotnetcore-pack/issues"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Azure",
+        "Extension Packs"
+    ],
+    "keywords": [
+        "azure",
+        "kubernetes",
+        "docker",
+        "dotnetcore",
+        "microservices"
+    ],
+    "publisher": "kdcllc",
+    "extensionPack": [
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "adrianwilczynski.blazor-snippet-pack",
+        "adrianwilczynski.asp-net-core-snippet-pack",
+        "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-docker",
+        "vscode-icons-team.vscode-icons",
+        "mikestead.dotenv",
+        "editorconfig.editorconfig",
+        "humao.rest-client",
+        "streetsidesoftware.code-spell-checker",
+        "mitchdenny.ecdc",
+        "in4margaret.compareit",
+        "ms-mssql.mssql",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.remote-ssh-explorer",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.csharp",
+        "ms-dotnettools.csharp",
+        "coenraads.bracket-pair-colorizer",
+        "formulahendry.dotnet-test-explorer",
+        "VisualStudioOnlineApplicationInsights.application-insights",
+        "aaron-bond.better-comments",
+        "cake-build.cake-vscode",
+        "usernamehw.errorlens",
+        "github.vscode-github-actions",
+        "GitHub.vscode-pull-request-github",
+        "heaths.vscode-guid",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "VisualStudioExptTeam.vscodeintellicode-completions",
+        "VisualStudioExptTeam.vscodeintellicode-insiders",
+        "nickdemayo.vscode-json-editor",
+        "joshuapoehls.json-escaper",
+        "ms-edgedevtools.vscode-edge-devtools",
+        "ms-dotnettools.blazorwasm-companion",
+        "christian-kohler.npm-intellisense",
+        "quicktype.quicktype",
+        "esbenp.prettier-vscode",
+        "josefpihrt-vscode.roslynator",
+        "azsdktm.SecurityIntelliSense",
+        "unoplatform.vscode",
+        "zxh404.vscode-proto3",
+        "ms-vscode.test-adapter-converter",
+        "ms-playwright.playwright",
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "marp-team.marp-vscode",
+        "ms-vscode.hexeditor"
+    ],
+    "devDependencies": {
+        "@vscode/vsce": "^2.21.0"
+    }
+}
